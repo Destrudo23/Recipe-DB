@@ -1,23 +1,80 @@
+body {
+  color: #2e2d2d;
+  background-color: #E5E5E5;
+  
+}
+
+div {
+  border: 2px dotted blue;
+}
+
 .nav-wrapper {
   display: flex;
-  justify-content: center;
+  background-color: #2e2d2d;
+}
+
+.item-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 60px;
 }
 
 .nav-logo {
-  background-image: url(https://i.imgur.com/KkC26RM.png);
+  background-image: url(https://i.imgur.com/4pEPVfd.png);
   box-sizing: border-box;
   background-size: cover;
   height: 200px;
   width: 200px;
+  min-width: 200px;
   border: 2px dotted blue;
+  
 }
 
 .nav-item {
   text-align: center;
-  border: 1px solid black;
-  padding: 10px;
+  border: 1px solid #E5E5E5;
+  color: #E5E5E5;
+  padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  border-radius: 15px;
+  height: 20px;   
 }
+
+.img-holder {
+  height: 100px;
+}
+
+.hero {
+  height: 200px;
+  text-align: center;
+  padding-top: 20%;
+  background-color: #E5E5E5;
+}
+
+#search-input {
+  border: 1px solid #2e2d2d;
+  border-radius: 15px;
+  height: 30px;
+  width: 500px;
+  box-sizing: border-box;
+  background-color: #E5E5E5;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+#search-btn {
+  border: 1px solid #2e2d2d;
+  border-radius: 15px;
+  height: 30px;
+  width: 40px;
+  background: none;
+  box-sizing: border-box;
+}
+
+
