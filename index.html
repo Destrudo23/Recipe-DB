@@ -4,28 +4,37 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <div class="all">
-      <div class="nav-wrapper">
-        <div class="nav-logo"></div>
-      <div class="item-wrapper">
-        <div class="nav-item">Add recipe</div>
-        <div class="nav-item">All recipes</div>
-        <div class="nav-item">Random recipe</div>
+    <header>
+      <div class="head-section">
+        <div class="nav-logo">
+          <img class="logo" src="https://i.imgur.com/vuFDy8g.png">
+        </div>
+        <div class="item-wrapper">
+          <div class="nav-item">Add recipe</div>
+          <div class="nav-item">All recipes</div>
+          <div class="nav-item">Random recipe</div>
+        </div>
       </div>
+    </header>
+    <section class="search-section">
+      <div class="hero">
+        <input type="text" placeholder="     Search for recipes" id="search-input">
+        <button id="search-btn">🔎</button>
       </div>
-    <div class="hero">
-      <input type="text" placeholder="     Search for recipes" id="search-input">
-      <button id="search-btn">🔎</button>
-    </div>
-    <div class="bottom-wrapper">
-      <div id="render-el">
-        Lorem ipsum!
+    </section>
+    <footer>
+      <div class="bottom-wrapper">
+        <div id="render-el">
+          Lorem ipsum!
+        </div>
       </div>
-    </div>
+    </footer>
     </div>    
   </body>
 </html>
