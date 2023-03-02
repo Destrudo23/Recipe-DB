@@ -3,6 +3,7 @@ body {
   background-color: #dad7cd;
   font-family: 'Roboto', sans-serif;
   margin: 0;
+
 }
 
 /*
@@ -17,6 +18,7 @@ header, footer {
   background-color: #3a5a40;
   color: #dad7cd;
   text-align: center;
+  border: 1px solid yellow;
 }
 
 .head-section, .search-section {
@@ -37,7 +39,8 @@ header, footer {
 header, 
 section, 
 footer {
-  padding: 40px 0px
+  padding: 40px 0px;
+  
 }
 
 .nav-item {
@@ -59,7 +62,7 @@ footer {
 }
 
 .search-section {
-  height: 60vh;
+  height: 70vh; 
   text-align: center;
   position: relative;
 }
