@@ -6,12 +6,6 @@ body {
 
 }
 
-/*
-div {
-  border: 1px solid yellow;
-}
-*/
-
 /*layout*/
 
 header, footer {
@@ -40,7 +34,6 @@ header,
 section, 
 footer {
   padding: 40px 0px;
-  
 }
 
 .nav-item {
@@ -94,12 +87,12 @@ textarea:focus, input:focus{
   outline: none;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder { 
   color: #3a5a40;
-  opacity: 1; /* Firefox */
+  opacity: 1; 
 }
 
-/*images*/
+
 
 
 

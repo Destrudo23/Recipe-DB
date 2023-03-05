@@ -1,3 +1,2 @@
-# Recipe-DB
+# Recipe-DB. Own Project
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-ywxarp)
